@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Élégance Location - Location pour Mariages</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#home" class="logo-container">
+        <div class="logo-icon">
+          <div class="crown">
+            <div class="crown-right"></div>
+          </div>
+          <div class="ring"></div>
+        </div>
+        <div class="logo-text">
+          <h1 class="logo-main">Élégance Location</h1>
+          <div class="decorative-line"></div>
+          <p class="logo-sub">Mariage & Événements</p>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Accueil</a></li>
+        <li class="dropdown">
+          <a href="#services" id="services-link">Services</a>
+          <ul class="dropdown-menu">
+            <li><a href="robe.html">Robes de mariée</a></li>
+            <li><a href="costumes.html">Costumes</a></li>
+            <li><a href="mobilier.html">Mobilier & Vaisselle</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2 class="hero-title">Sublimez votre mariage avec Élégance Location</h2>
+      <p class="hero-text">Location de robes de mariée, costumes, chaises, tables et vaisselle pour un événement inoubliable.</p>
+      <a href="#contact" class="btn">Réservez maintenant</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Nos Services</h2>
+      <div class="services-grid">
+        <!-- Robes de mariée -->
+        <div class="service-card">
+          <a href="robe.html" class="service card-btn">
+          <img src="mari.jpg" alt="Robe de mariée" class="service-img">
+          <h3 class="service-title">Robes de mariée</h3>
+          <p class="service-text">Des robes élégantes pour tous les styles, disponibles à la location.</p>
+          </a>
+        </div>
+        <!-- Costumes -->
+        <div class="service-card">
+          <a href="costumes.html" class="service card-btn">
+          <img src="costu.jpg" alt="Costume" class="service-img">
+          <h3 class="service-title">Costumes</h3>
+          <p class="service-text">Costumes sur mesure pour le marié et ses accompagnants.</p>
+          </a>
+        </div>
+        <!-- Mobilier et vaisselle -->
+        <div class="service-card">
+          <a href="mobilier.html" class="service card-btn">
+          <img src="meu.jpg" alt="Mobilier" class="service-img">
+          <h3 class="service-title">Mobilier & Vaisselle</h3>
+          <p class="service-text">Chaises, tables, assiettes, fourchettes et couteaux pour une réception parfaite.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contactez-nous</h2>
+      <div class="contact-form">
+        <form action="mailto:dannmpbrk@gmail.com" method="POST" enctype="text/plain">
+  <div class="form-group">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+  <button type="submit" class="btn" onclick="alert('Message envoyé ! Nous vous contacterons bientôt.')">Envoyer</button>
+</form>
+  </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Élégance Location. Tous droits réservés.</p>
+    </div>
+  </footer>
+<script src="index.js"></script>
+</body>
+</html>
